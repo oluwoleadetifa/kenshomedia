@@ -1,11 +1,12 @@
 import React from 'react'
-import Links from '../links/Links'
+import Links from '../../components/links/Links'
 import './Navbar.style.scss'
-import Image from '../Image/Image';
+import Image from '../../components/Image/Image';
 import { images } from '../../assets/images';
 
 const Navbar = () => {
   return (
+    //Entire Navigation bar
     <div className="Navbar-container">
       <div className="main-header">Sandlot Games</div>
       <div className="navbar-links">

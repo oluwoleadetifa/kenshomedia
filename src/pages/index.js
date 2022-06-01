@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Navbar from '../components/navbar/Navbar';
+import Navbar from '../containers/navbar/Navbar';
 import Main from '../containers/main';
 import './index.style.scss';
 

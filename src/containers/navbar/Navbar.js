@@ -13,7 +13,7 @@ const Navbar = () => {
         <Links name={"section"}/>
         <Links name={"section"}/>
         <Links name={"section"} />
-        <Links name={"Login"}/>
+        <Links name={"Log in"}/>
         <Image src={images.Search} className='search-icon'/>
       </div>
     </div>

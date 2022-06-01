@@ -45,23 +45,14 @@
         height: 30%;
 
       }
-      .blur{
-        position: relative;
-        background: #600e49;
-        padding: 10px;
-        filter: blur(4px);
-        background-blend-mode: soft-light;
-        margin: -2% 0%;
-        backdrop-filter: blur(6px);
-      }
       .star-rating{
         width: 100%;
         display: flex;
         justify-content: center;
         align-content: center;
-        margin-top: 2%;
         margin-bottom: 1%;
         height: 8%;
+        background-image: linear-gradient(180deg, green, transparent);
 
         .rating-number{
           color: white;

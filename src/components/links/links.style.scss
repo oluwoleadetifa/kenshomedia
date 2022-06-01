@@ -1,3 +1,26 @@
+@import '../../styles/fonts.scss';
+
 .space-between{
   margin: 0% 5%;
+}
+
+.dropdown{
+  background-color: transparent;
+  width: 100%;
+  color: white;
+  overflow: visible;
+  font-weight: 400;
+  border: none;
+  font-family: $fontFamilyPoppins;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+
+  li{
+    list-style: none;
+  }
+}
+
+.dropdown:hover{
+  color: #aa1e1e;
 }

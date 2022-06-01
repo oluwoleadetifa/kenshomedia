@@ -10,8 +10,8 @@ const Navbar = () => {
     <div className="Navbar-container">
       <div className="main-header">Sandlot Games</div>
       <div className="navbar-links">
-        <Links name={"section"}/>
-        <Links name={"section"}/>
+        <Links name={"section"} dropdown/>
+        <Links name={"section"} dropdown/>
         <Links name={"section"} />
         <Links name={"Log in"}/>
         <Image src={images.Search} className='search-icon'/>

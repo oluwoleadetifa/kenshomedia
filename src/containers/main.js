@@ -8,30 +8,34 @@ const Main = () => {
   return (
     <>
       <div className="main-body">
-        <div className="carousel">
-          <Image src={images.Advert} className={"sliding-images"} />
-        </div>
+        <Carousel>
+          <CarouselItem>
+            <Image src={images.Advert} className={"sliding-images"} />
+          </CarouselItem>
+          <CarouselItem>
+            <Image src={images.Advert} className={"sliding-images"} />
+          </CarouselItem>
+          <CarouselItem>
+            <Image src={images.Advert} className={"sliding-images"} />
+          </CarouselItem>
+          <CarouselItem>
+            <Image src={images.Advert} className={"sliding-images"} />
+          </CarouselItem>
+        </Carousel>
         <div className="ad-object">
           <div className="card">
             <div className="text">Slot of the week</div>
             <Image src={images.Game} className="card-image" />
+            <div className="star-rating">
+              <Image src={images.FullStar} className="star" />
+              <Image src={images.FullStar} className="star" />
+              <Image src={images.FullStar} className="star" />
+              <Image src={images.FullStar} className="star" />
+              <Image src={images.HalfStar} className="star" />
+            </div>
           </div>
         </div>
       </div>
-      <Carousel>
-        <CarouselItem>
-          <Image src={images.Advert} className={"sliding-images"} />
-        </CarouselItem>
-        <CarouselItem>
-          <Image src={images.Advert} className={"sliding-images"} />
-        </CarouselItem>
-        <CarouselItem>
-          <Image src={images.Advert} className={"sliding-images"} />
-        </CarouselItem>
-        <CarouselItem>
-          <Image src={images.Advert} className={"sliding-images"} />
-        </CarouselItem>
-      </Carousel>
     </>
   );
 }

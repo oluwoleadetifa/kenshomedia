@@ -25,7 +25,7 @@ const Carousel = ({ children }) => {
   }
   return (
     <>
-      <div className="carousel-1">
+      <div className="carousel">
         <div
           className="inner"
           style={{ transform: `translateX(-${position * 100}%)` }}
@@ -34,10 +34,10 @@ const Carousel = ({ children }) => {
             return cloneElement(child, { width: "100%" });
           })}
         </div>
-      </div>
-      <div className='indicators'>
-        <button onClick={() => updatePosition(position - 1)}>back</button>
-        <button onClick={() => updatePosition(position + 1)}>next</button>
+        <div className="indicators">
+          <button onClick={() => updatePosition(position - 1)}>&lt;</button>
+          <button onClick={() => updatePosition(position + 1)}>&gt;</button>
+        </div>
       </div>
     </>
   );

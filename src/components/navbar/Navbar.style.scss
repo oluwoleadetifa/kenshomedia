@@ -12,6 +12,7 @@
 
   .main-header{
     font-size: 24.502px;
+    width: 40%;
     margin: 0% 4%;
     font-family: $fontFamilyPoppins;
     font-weight: 700;
@@ -21,11 +22,16 @@
     display: flex;
     margin: 0% 4%;
     font-family: $fontFamilyPoppins;
+    width: 60%;
     font-weight: 400;
     justify-content: space-around;
-  }
+    align-items: center;
+    text-transform: capitalize;
+    cursor: pointer;
 
-  .space-between{
-    margin: 0% 5%;
+    .search-icon{
+      width: 3%;
+      color: white;
+    }
   }
 }

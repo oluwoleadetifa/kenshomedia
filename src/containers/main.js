@@ -22,7 +22,7 @@ const Main = () => {
             <Image src={images.Advert} className={"sliding-images"} />
           </CarouselItem>
         </Carousel>
-        <div className="ad-object">
+        <section className="ad-object">
           <div className="card">
             <div className="text">Slot of the week</div>
             <Image src={images.Game} className="card-image" />
@@ -32,9 +32,18 @@ const Main = () => {
               <Image src={images.FullStar} className="star" />
               <Image src={images.FullStar} className="star" />
               <Image src={images.HalfStar} className="star" />
+              <span className="rating-number">4.7</span>
+            </div>
+            <div className="description">
+              <div className='heading'>Fowl play gold</div>
+              <div>
+                Fowl Play Gold by WMG is a fun 5-reel video slot that promises
+                to turn your stakes into a...
+              </div>
+              <button>Play for free</button>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );

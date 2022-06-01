@@ -1,4 +1,6 @@
 import React, { Children, cloneElement, useState } from 'react'
+import { images } from '../../assets/images';
+import Image from '../Image/Image';
 import './Carousel.style.scss';
 
 export const CarouselItem = ({ children, width }) => {
@@ -35,8 +37,16 @@ const Carousel = ({ children }) => {
           })}
         </div>
         <div className="indicators">
-          <button onClick={() => updatePosition(position - 1)}>&lt;</button>
-          <button onClick={() => updatePosition(position + 1)}>&gt;</button>
+          <Image
+            onClick={() => updatePosition(position - 1)}
+            src={images.LeftNav}
+            className="button"
+          />
+          <Image
+            onClick={() => updatePosition(position + 1)}
+            src={images.RightNav}
+            className="button"
+          />
         </div>
       </div>
     </>

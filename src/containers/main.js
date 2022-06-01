@@ -36,7 +36,7 @@ const Main = () => {
             </div>
             <div className="description">
               <div className='heading'>Fowl play gold</div>
-              <div>
+              <div className='body'>
                 Fowl Play Gold by WMG is a fun 5-reel video slot that promises
                 to turn your stakes into a...
               </div>

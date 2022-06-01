@@ -26,6 +26,7 @@ const Main = () => {
           <div className="card">
             <div className="text">Slot of the week</div>
             <Image src={images.Game} className="card-image" />
+            <div className='blur'></div>
             <div className="star-rating">
               <Image src={images.FullStar} className="star" />
               <Image src={images.FullStar} className="star" />

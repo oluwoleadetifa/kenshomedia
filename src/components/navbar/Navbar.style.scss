@@ -1,8 +1,31 @@
+@import '../../styles/fonts.scss';
+
 .Navbar-container{
   width: 100%;
   background: rgb(68, 14, 54);
   color: white;
-  padding: 5% 5% 10% 5%;
+  padding: 2% 2% 5% 2%;
   margin: 0;
   border-radius: 0% 0% 100% 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .main-header{
+    font-size: 24.502px;
+    margin: 0% 4%;
+    font-family: $fontFamilyPoppins;
+    font-weight: 700;
+  }
+
+  .navbar-links{
+    display: flex;
+    margin: 0% 4%;
+    font-family: $fontFamilyPoppins;
+    font-weight: 400;
+    justify-content: space-around;
+  }
+
+  .space-between{
+    margin: 0% 5%;
+  }
 }

@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Links = () => {
+const Links = ({name, className, dropdown, href}) => {
   return (
-    <div>Links</div>
-  )
+    <div className={className}>
+      <a href={href}>{name}</a>
+    </div>
+  );
 }
 
 export default Links
